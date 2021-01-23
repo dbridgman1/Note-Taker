@@ -1,17 +1,17 @@
 const path = require('path');
+const Notes = require('../db/Note')
 
 module.exports = function(app) {
 
     app.get('/api/notes', function(req, res) {
-        res.json(notes);
+       Notes.getNotes().then(note => res.json(note)).catch(err => res.status(500).json(err))
     });
 
     app.post('/api/notes', function(req, res) {
-        notes.push(req.body);
-        res.json(true);
+       Notes.addNotes(req.body).then(note => res.json(note)).catch(err => res.status(500).json(err))
     });
 
     app.delete('/api/notes/:id', function(req, res) {
-        res.json(notes)
+      Notes.removeNotes(req.params.id).then(() => res.json({ ok: true })).catch(err => res.status(500).json(err))
     })
 }
