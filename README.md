@@ -1,7 +1,8 @@
 # Note-Taker
 
 ## Description
-  
+
+This application allows the user to write, save, and delete notes.  The application uses an express backend to save and retrieve notes from a JSON file.  The frontend of this project was given to the developer.  Routes needed to be created to allow the application to commuicate between the frontend and the backend.  The application will be deployed through Heroku.
 
 ## Developer 
  
