@@ -8,7 +8,7 @@ This application allows the user to write, save, and delete notes.  The applicat
  
 <br>
 
-Link to Deployment: [Note Taker](https://stormy-coast-65743.herokuapp.com/notes)
+Link to Deployment: [Note Taker](https://stormy-coast-65743.herokuapp.com)
 
 ## Fucntionality
 
