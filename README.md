@@ -7,7 +7,7 @@
  
 <br>
 
-Link to Walkthrough Video: [Employee Summary Generator](https://drive.google.com/drive/folders/17nDCfFI4kBFiwPOxToqxRuMrSzG6QH_J)
+Link to Deployment: [Note Taker]()
 
 ## Fucntionality
 
