@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { parse } = require('path');
 const util = require('util');
 const writeAsync = util.promisify(fs.writeFile)
 const readAsync = util.promisify(fs.readFile)
