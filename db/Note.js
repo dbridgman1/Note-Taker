@@ -16,7 +16,7 @@ class Notes {
         return this.read().then(notes => {
             let parseNotes = [];
             try {
-                parseNotes = parseNotes.concat(JSON.parse(notes))
+                parseNotes = parseNotes.concat(JSON.parse(notes))c
             } catch (error) {
                 parseNotes = [];
             }
